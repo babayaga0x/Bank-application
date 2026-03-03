@@ -56,24 +56,9 @@ npm start
 ```
 
 Open [http://localhost:3000](http://localhost:3000) in your browser.  
-The page will reload automatically on file changes.
+The page reloads automatically on file changes.
 
 ---
-
-## 🔐 Admin Panel
-
-To access the admin panel, navigate to:
-```
-http://localhost:3000/admin
-```
-
-| Field    | Value   |
-|----------|---------|
-| Login    | `admin` |
-| Password | `admin` |
-
----
-
 ## 📁 Project Structure
 ```
 Bank-application/
@@ -127,13 +112,13 @@ Ejects the CRA configuration, copying webpack, Babel, and ESLint configs directl
 
 ## 🌐 Deployment
 
-The production build is a fully static bundle that can be served from any host:
+The app is fully static after build and can be deployed to any static host:
 
-| Platform     | Method                                 |
-|--------------|----------------------------------------|
-| GitHub Pages | Deploy `build/` via `gh-pages` package |
-| Netlify      | Drag & drop `build/` folder            |
-| Vercel       | Connect GitHub repo, auto-detects React|
+| Platform     | Method                                  |
+|--------------|-----------------------------------------|
+| GitHub Pages | Deploy `build/` via `gh-pages` package  |
+| Netlify      | Drag & drop `build/` folder             |
+| Vercel       | Connect GitHub repo, auto-detects React |
 
 Build for production:
 ```bash
